@@ -34,7 +34,6 @@
         Contact: function() {
             console.log("contact me");
             $("#contact").get(0).scrollIntoView();
-            window.scrollBy(0,-50);
         },
         initialize: function() {
             // app view

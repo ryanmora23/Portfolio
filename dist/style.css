@@ -96,35 +96,35 @@ body {
  * Inner project containers
  */
 .project1 {
-  background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTXUYafvU0DI3pt7CI9bLD6laPzWlHcpc1MB58t2NE3HyClydSpsw");
+  background-image: url("../images/TwitchApp.png");
   height: 200px;
   width: 200px;
   background-size: 100%;
   background-repeat: no-repeat; }
 
 .project2 {
-  background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTXUYafvU0DI3pt7CI9bLD6laPzWlHcpc1MB58t2NE3HyClydSpsw");
+  background-image: url("../images/EtsyApp.png");
   height: 200px;
   width: 200px;
   background-size: 100%;
   background-repeat: no-repeat; }
 
 .project3 {
-  background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTXUYafvU0DI3pt7CI9bLD6laPzWlHcpc1MB58t2NE3HyClydSpsw");
+  background-image: url("../images/EmoBot.png");
   height: 200px;
   width: 200px;
   background-size: 100%;
   background-repeat: no-repeat; }
 
 .project4 {
-  background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTXUYafvU0DI3pt7CI9bLD6laPzWlHcpc1MB58t2NE3HyClydSpsw");
+  background-image: url("../images/Github.png");
   height: 200px;
   width: 200px;
   background-size: 100%;
   background-repeat: no-repeat; }
 
 .project5 {
-  background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTXUYafvU0DI3pt7CI9bLD6laPzWlHcpc1MB58t2NE3HyClydSpsw");
+  background-image: url("../images/ColorClock.png");
   height: 200px;
   width: 200px;
   background-size: 100%;
