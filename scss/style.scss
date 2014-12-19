@@ -11,12 +11,14 @@
 /**
  * BOX-SIZING
  */
+
 *, *:before, *:after {
     box-sizing: border-box;
 }
 /**
  * GRIDS
  */
+
 .grid {
     width: 100%;
     display: block;
@@ -39,10 +41,121 @@
 }
 @include gridify(2, 400);
 @include gridify(4, 600);
-/**
+/*
  * GENERAL
  */
+
 body {
     transition: opacity .25s ease;
 }
-    
+/*
+ * Nav bar
+ */
+.space {
+    height: 50px;
+}
+.navBar {
+    position: fixed;
+    background-color: #BFFFFF;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+}
+.navBar li {
+    display: inline-block;
+    margin: 20px;
+    margin-top: 10px;
+}
+/**
+ * home
+ */
+.home{
+    min-height:600px;
+    width: 100%;
+}
+/*
+ * about me
+ */
+
+.aboutContainer{
+    text-align: center;
+    width:100%;
+    min-height: 600px;
+}
+
+/*
+ * projects container
+ */
+
+.projectsContainer {
+    display: relative;
+    width: 100%;
+    min-height: 600px;
+}
+.projectsContainer h1{
+    text-align: center;
+}
+/*
+ * Outer project container
+ */
+
+.projectCont {
+    width:100;
+    display:inline-block;
+    margin:20px;
+}
+/*
+ * Inner project containers
+ */
+
+.project1 {
+    background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTXUYafvU0DI3pt7CI9bLD6laPzWlHcpc1MB58t2NE3HyClydSpsw");
+    height: 200px;
+    width: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.project2 {
+    background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTXUYafvU0DI3pt7CI9bLD6laPzWlHcpc1MB58t2NE3HyClydSpsw");
+    height: 200px;
+    width: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.project3 {
+    background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTXUYafvU0DI3pt7CI9bLD6laPzWlHcpc1MB58t2NE3HyClydSpsw");
+    height: 200px;
+    width: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.project4 {
+    background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTXUYafvU0DI3pt7CI9bLD6laPzWlHcpc1MB58t2NE3HyClydSpsw");
+    height: 200px;
+    width: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.project5 {
+    background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTXUYafvU0DI3pt7CI9bLD6laPzWlHcpc1MB58t2NE3HyClydSpsw");
+    height: 200px;
+    width: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+/*
+ * resume 
+ */
+.resume{
+    min-height: 600px;
+    width:100%;
+    text-align: center;
+}
+/**
+ * contact me
+ */
+.contactMeContainer{
+    text-align: center;
+    width:100%;
+    min-height: 600px;
+}
